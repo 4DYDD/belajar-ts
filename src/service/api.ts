@@ -30,6 +30,11 @@ const dataBodong: Array<DataBodongnya> = [
     name: "cumi",
     price: 50000,
   },
+  {
+    id: 6,
+    name: "risoles",
+    price: 2500,
+  },
 ];
 
 export function fetchDataBodong(): Array<DataBodongnya> {

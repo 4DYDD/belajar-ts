@@ -7,4 +7,27 @@ describe("\ntes builder", () => {
       name: "objeklah",
     });
   });
+
+  // it("nyobain class", () => {
+  //   class Employee {
+  //     name: string;
+
+  //     constructor(name: string) {
+  //       this.name = name;
+  //     }
+  //   }
+
+  //   class OtherEmployee {
+  //     nama: string;
+  //     constructor(name: string) {
+  //       this.nama = name;
+  //     }
+  //   }
+
+  //   function sayHello(employee: Employee): void {
+  //     console.log(`Hello ${employee.name}`);
+  //   }
+
+  //   sayHello(new OtherEmployee("joko"));
+  // });
 });
