@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import "./App.css";
 import { fetchDataBodong, DataBodongnya } from "./service/api";
+import formatRupiah from "./utils/formatRupiah";
 
 function App() {
   const [dataBodong, setDataBodong] = useState<Array<DataBodongnya>>([]);
@@ -22,7 +23,7 @@ function App() {
       <ul className="flex-col border rounded-lg shadow h-36 flexc shadow-gray-400">
         <li>{value.id}</li>
         <li>{value.name}</li>
-        <li>{value.price}</li>
+        <li>{formatRupiah(value.price)}</li>
       </ul>
     );
   };
